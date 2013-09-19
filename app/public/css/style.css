@@ -1,0 +1,305 @@
+.row {
+  margin-bottom: 15px;
+}
+.field {
+  margin-bottom: 15px;
+}
+[class^="title-"] {
+  margin-bottom: 10px;
+}
+.title-h1 {
+  font-size: 32px;
+  line-height: 34px;
+}
+.title-h2 {
+  font-size: 28px;
+  line-height: 30px;
+}
+.title-h3 {
+  font-size: 24px;
+  line-height: 26px;
+}
+.clear {
+  clear: both;
+}
+.agenda .events .wrapper {
+  padding: 10px;
+}
+.agenda .events .wrapper:nth-of-type(2n) {
+  background: #e7e7e7;
+}
+.agenda .events .wrapper.now {
+  background: #daffd8;
+}
+.agenda .events .date {
+  float: left;
+  min-width: 130px;
+  color: #15c;
+}
+.agenda .events .eventsList {
+  overflow: hidden;
+}
+.agenda .events .eventsList .time {
+  min-width: 85px;
+  font-size: 12px;
+}
+.agenda .events .eventsList .title {
+  color: #4db810;
+}
+.agenda .events .eventsList .item {
+  float: left;
+}
+.agenda .events .eventsList .change a {
+  padding: 0 10px;
+}
+.agenda .date {
+  max-width: 200px;
+}
+.agenda .title {
+  min-width: 150px;
+}
+.agenda .description {
+  min-width: 150px;
+}
+.messageBlock {
+  padding: 10px;
+  border: 1px solid #c0c0c0;
+  background: #e7e7e7;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.standart input {
+  display: block;
+}
+.standart input.error {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  box-shadow: 0;
+}
+.standart .inputMargin input {
+  margin-bottom: 10px;
+}
+.standart .error {
+  color: #f00;
+  margin: 10px 0 0 0;
+}
+.addEvent .days,
+.addEvent .ends,
+.addEvent #dateRepeatEnd {
+  display: none;
+}
+.tasks .list-container .addNewTask {
+  min-height: 150px;
+}
+.tasks .list-container .item-task {
+  padding: 5px;
+  background: #f0f0f0;
+  margin: 0 0 5px;
+}
+.tasks .list-container .item-task .data {
+  overflow: hidden;
+}
+.tasks .list-container .item-task .isDone {
+  float: left;
+  margin: 10px 10px 0 0;
+}
+.tasks .list-container .item-task .title {
+  margin: 0;
+  width: 80%;
+}
+.tasks .list-container .item-task .more {
+  margin: 15px 0 0;
+}
+.tasks .menu-container .listNames .list-wrapper .icon-check {
+  display: none;
+}
+.tasks .menu-container .listNames .list-wrapper.active .icon-check {
+  display: inline-block;
+}
+.blogAdminPanel .preset-container .presetInfo {
+  display: none;
+}
+.blogAdminPanel .preset-container .span3 {
+  margin-left: 0;
+}
+.exploreView th,
+.exploreView td {
+  text-align: left;
+  padding: 10px 15px;
+}
+.exploreView tr {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+.exploreView tr:hover {
+  background: #e7f6ff;
+  border-bottom: 1px solid #b2dffc;
+  border-top: 1px solid #b2dffc;
+}
+.exploreView tr.active {
+  background: #388ec8;
+  color: #fff;
+}
+.exploreView tr.active .inFolder {
+  color: #fff;
+}
+.exploreView tr .inFolder {
+  cursor: pointer;
+}
+.exploreView tr .inFolder.off {
+  display: none;
+}
+.exploreView tr .inFolder.on {
+  display: inline-block;
+}
+.exploreView tr .newName.off {
+  display: none;
+}
+.exploreView tr .newName.on {
+  display: inline-block;
+}
+.exploreView tr .icon {
+  display: inline-block;
+  margin: 0 15px 0 5px;
+  vertical-align: middle;
+}
+.manageBtn .deleteBtn,
+.manageBtn .selectBtn {
+  display: none;
+}
+.pathContainer ul {
+  padding: 0;
+  overflow: hidden;
+  margin-left: 0;
+}
+.pathContainer li {
+  float: left;
+  margin: 0 7px 0 0;
+  list-style: none;
+}
+.pathContainer .arrow {
+  display: inline-block;
+  margin-left: 5px;
+}
+.notify {
+  position: fixed;
+  top: 0;
+  right: 50%;
+  padding: 3px 8px;
+  border-radius: 0px 0px 5px 5px;
+  color: #fff;
+  background: #c97a25;
+  font-size: 12px;
+}
+.tl {
+  background: url("/img/blog/background/background.jpg") no-repeat 0 0;
+  color: #000;
+  font-family: arial, tahoma, sans-serif;
+  font-size: 12px;
+  height: 555px;
+  line-height: 1.3;
+  margin: 0;
+  min-width: 960px;
+  overflow: hidden;
+  padding: 20px 0 0 0;
+  position: relative;
+  width: 100%;
+}
+.tl .month,
+.tl .post {
+  position: absolute;
+}
+.tl .line {
+  background: rgba(68,73,56,0.7);
+  height: 370px;
+  padding: 28px 0;
+}
+.tl .line:hover {
+  cursor: pointer;
+}
+.tl .line .timeline-buffer {
+  display: none;
+}
+.tl .line .timeline-clip {
+  height: 370px;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+.tl .post {
+  padding: 3px;
+  border-bottom: 1px solid #d1cbd1;
+  color: #fff;
+  list-style: none;
+}
+.tl .post:hover {
+  transition: all 200ms linear;
+  background: rgba(255,255,255,0.92);
+  color: #000;
+}
+.tl .post.white {
+  background: #fff;
+  color: #000;
+}
+.tl .post.white:hover {
+  transition: all 200ms linear;
+  background: rgba(177,177,177,0.37);
+  color: #fff;
+}
+.tl .post img {
+  margin: 0 0 10px 0;
+  display: block;
+}
+.tl .post.quote {
+  font-size: 14px;
+  line-height: 20px;
+}
+.postModal {
+  width: 80%;
+  position: absolute;
+  margin-left: -350px;
+  width: 700px;
+}
+.postMain {
+  padding: 36px 20px 20px;
+}
+.postMain h2 {
+  clear: both;
+  font-family: HelveticaCustom, arial, sans-serif;
+  margin: 20px 130px 20px -20px;
+  padding: 15px 20px;
+  background: #9cc;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  width: 60%;
+  font-size: 30px;
+  line-height: 28px;
+}
+.postMain .tags li {
+  list-style: none;
+}
+.postMain .nav li {
+  list-style: none;
+}
+.postMain .nav .navBtn {
+  display: block;
+  position: absolute;
+  width: 27px;
+  top: 0%;
+  padding: 10px;
+  cursor: pointer;
+  background: #9cc;
+  color: #fff;
+}
+.postMain .nav .navBtn:hover {
+  background: #fff;
+  color: #9cc;
+}
+.postMain .nav .navBtn.prev {
+  left: -50px;
+}
+.postMain .nav .navBtn.next {
+  right: -50px;
+}
